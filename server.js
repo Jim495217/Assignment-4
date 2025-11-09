@@ -46,9 +46,7 @@ app.get('/api/books/:id', (req, res) => {
   res.json(book);
 });
 
-// ===========================
-// POST, PUT, DELETE Endpoints
-// ===========================
+
 
 // Add a new book
 app.post('/api/books', (req, res) => {
@@ -94,9 +92,7 @@ app.delete('/api/books/:id', (req, res) => {
   res.status(204).send();
 });
 
-// ===========================
-// Server Start + Export
-// ===========================
+
 
 let server;
 
